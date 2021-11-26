@@ -1,0 +1,62 @@
+body {
+    background-color: #145a8c;
+    font-family: Bahnschrift, sans-serif;
+}
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .3);
+}
+.container form label {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin: 10px;
+    align-items: center;
+    width: 100%;
+}
+.container form input {
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .1) inset;
+}
+.container form label input[type="number"] {
+    font-size: 20px;
+
+}
+.container form input[type="submit"] {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    transition: .3s cubic-bezier(.5, 0, 0, 1);
+    box-shadow: none;
+}
+.container form input[type="submit"]:hover {
+    background-color: #145a8c;
+    color: white;
+    box-shadow: none;
+}
+
+.container .result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .3);
+}
