@@ -18,7 +18,7 @@ body {
 }
 .container form label {
     display: grid;
-    grid-template-columns: 30px 1fr;
+    grid-template-columns: 100px 1fr;
     margin: 10px;
     align-items: center;
     width: 100%;
@@ -29,10 +29,7 @@ body {
     border-radius: 7px;
     padding: 5px;
     box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .1) inset;
-}
-.container form label input[type="number"] {
     font-size: 20px;
-
 }
 .container form input[type="submit"] {
     background-color: transparent;
